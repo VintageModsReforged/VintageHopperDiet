@@ -109,17 +109,19 @@ public class VintageHopperDiet {
                 case 0: // Down
                     boxes.add(AxisAlignedBB.getBoundingBox(x + 0.375, y + 0.0, z + 0.375, x + 0.625, y + 0.25, z + 0.625));
                     break;
-                case 1: // North
-                    boxes.add(AxisAlignedBB.getBoundingBox(x + 0.375, y + 0.25, z + 0.75, x + 0.625, y + 0.5, z + 1.0));
+                case 1:
                     break;
-                case 2: // South
+                case 2: // North
                     boxes.add(AxisAlignedBB.getBoundingBox(x + 0.375, y + 0.25, z + 0.0, x + 0.625, y + 0.5, z + 0.25));
                     break;
-                case 3: // West
-                    boxes.add(AxisAlignedBB.getBoundingBox(x + 0.75, y + 0.25, z + 0.375, x + 1.0, y + 0.5, z + 0.625));
+                case 3: // South
+                    boxes.add(AxisAlignedBB.getBoundingBox(x + 0.375, y + 0.25, z + 0.75, x + 0.625, y + 0.5, z + 1.0));
                     break;
-                case 4: // East
+                case 4: // West
                     boxes.add(AxisAlignedBB.getBoundingBox(x + 0.0, y + 0.25, z + 0.375, x + 0.25, y + 0.5, z + 0.625));
+                    break;
+                case 5: // East
+                    boxes.add(AxisAlignedBB.getBoundingBox(x + 0.75, y + 0.25, z + 0.375, x + 1.0, y + 0.5, z + 0.625));
                     break;
             }
 
