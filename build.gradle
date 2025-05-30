@@ -43,4 +43,5 @@ dependencies {
 	
 	//coremodImplementation files("../dep_testin/ears-forge-1.4-1.4.5_01.jar")
 	//modImplementation files("../dep_testin/buildcraft-A-1.4.7-3.4.4.jar")
+	modImplementation files("/libs/VintageCore-1.5.2-1.0.6-dev.jar")
 }
