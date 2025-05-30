@@ -49,6 +49,7 @@ public class VintageHopperDiet {
     public void postInit(FMLPostInitializationEvent e) {
         CONFIG_HANDLER.confirmOwnership(CONFIG);
         GameRegistry.addShapelessRecipe(new ItemStack(HOPPER), Block.hopperBlock);
+        GameRegistry.addShapelessRecipe(new ItemStack(Block.hopperBlock), HOPPER);
     }
 
     public static class BlockDietHopper extends BlockHopper implements IItemBlockIDProvider {
