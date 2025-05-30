@@ -1,0 +1,9 @@
+[
+  {
+    "modid": "vintagehopperdiet",
+    "name": "Vintage Hopper Diet",
+    "description": "This mod add some small tweaking to the collision boxes of the Hopper Block",
+    "version": "1.5.2-1.0.1",
+    "authors": ["CrossVas"]
+  }
+]
